@@ -14,7 +14,7 @@ Analysis Geo 880**
 |:---------------|:---------------------------------------- |
 | **Data:**      | What type of data are you focussing on?  |
 | **Title:**     | The title of your project                |
-| **Student 1:** | Name of Student 1                        |
+| **Student 1:** | Xiao Cui                        |
 | **Student 2:** | Name of Student 2                        |
 
 ## Abstract 
@@ -22,13 +22,15 @@ Analysis Geo 880**
 
 ## Research Questions
 <!-- (50-60 words) -->
-
+1. 
 ## Results / products
 <!-- What do you expect, anticipate? -->
 
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
-
+1. Movement data (trajectories) from the data pool
+2. POI from Open Street Map (OSM)
+3. 
 ## Analytical concepts
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
