@@ -10,12 +10,12 @@ quarto render Readme.md --to pdf
 **Patterns & Trends in Environmental Data / Computational Movement
 Analysis Geo 880**
 
-| Semester:      | FS23                                     |
+| Semester:      | FS24                                     |
 |:---------------|:---------------------------------------- |
 | **Data:**      | What type of data are you focussing on?  |
 | **Title:**     | The title of your project                |
-| **Student 1:** | Xiao Cui                        |
-| **Student 2:** | Name of Student 2                        |
+| **Student 1:** | Tanja Falasca                       |
+| **Student 2:** | Xiao Cui                      |
 
 ## Abstract 
 <!-- (50-60 words) -->
