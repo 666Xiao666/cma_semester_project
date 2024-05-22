@@ -42,3 +42,9 @@ Analysis Geo 880**
 
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
+
+## References (APA 7)
+<!-- potential ideas in: indoor/outdoor detection -->
+Jankowska, M. M., Yang, J., Luo, N., Spoon, C., & Benmarhnia, T. (2023). Accounting for space, time, and behavior using GPS derived dynamic measures of environmental exposure. Health and Place/Health & Place (Online), 79, 102706. https://doi.org/10.1016/j.healthplace.2021.102706
+
+Noureddine, H., Ray, C., & Claramunt, C. (2021). A hierarchical indoor and outdoor model for semantic trajectories. Transactions in GIS, 26(1), 214–235. https://doi.org/10.1111/tgis.12841
