@@ -12,8 +12,8 @@ Analysis Geo 880**
 
 | Semester:      | FS24                                     |
 |:---------------|:---------------------------------------- |
-| **Data:**      | What type of data are you focussing on?  |
-| **Title:**     | The title of your project                |
+| **Data:**      | Daily trajectories  |
+| **Title:**     | Transit detection of daily mobility patterns |
 | **Student 1:** | Tanja Falasca                       |
 | **Student 2:** | Xiao Cui                      |
 
@@ -22,7 +22,8 @@ Analysis Geo 880**
 
 ## Research Questions
 <!-- (50-60 words) -->
-1. 
+1. Which detection methods can identify transit modes accurately?
+2. 
 ## Results / products
 <!-- What do you expect, anticipate? -->
 
@@ -40,11 +41,12 @@ Analysis Geo 880**
 ## Risk analysis
 <!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
 
+
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
+
 
 ## References (APA 7)
 <!-- potential ideas in: indoor/outdoor detection -->
 Jankowska, M. M., Yang, J., Luo, N., Spoon, C., & Benmarhnia, T. (2023). Accounting for space, time, and behavior using GPS derived dynamic measures of environmental exposure. Health and Place/Health & Place (Online), 79, 102706. https://doi.org/10.1016/j.healthplace.2021.102706
 
-Noureddine, H., Ray, C., & Claramunt, C. (2021). A hierarchical indoor and outdoor model for semantic trajectories. Transactions in GIS, 26(1), 214–235. https://doi.org/10.1111/tgis.12841
