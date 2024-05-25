@@ -15,7 +15,7 @@ Analysis Geo 880**
 | **Data:**      | Daily trajectories  |
 | **Title:**     | Transit detection of daily mobility patterns |
 | **Student 1:** | Tanja Falasca                       |
-| **Student 2:** | Xiao Cui                      |
+| **Student 2:** | Tatiana Blumberg                    |
 
 ## Abstract 
 <!-- (50-60 words) -->
