@@ -38,12 +38,12 @@ We are going to work with trajectory data and then use the biking data from it. 
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
 
 ## Risk analysis
-<!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
-
+The first challenge that we will face is the potential outliers in the travel data – the data collected while using the other transport means (car, train). As this is not suited for our research questions the solution would be to filter this data out on the stage of preprocessing. The second problem is that the initial dataset size might not be large enough for the solid analysis. The plan B in this case would be extracting data for the longer period from the Strava app.
 
 ## Questions? 
-<!-- Which questions would you like to discuss at the coaching session? -->
-
+1. How to match raw GPS data with the bikeway?
+2. Potential indicator for speed deviation: semantic (station as origin/destination), time (operation time)?
+3. How to match the open street data with the biking data (might be needed for identifying the traffic lights and the road junctions)?
 
 ## References (APA 7)
 <!-- potential ideas in: indoor/outdoor detection -->
