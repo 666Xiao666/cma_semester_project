@@ -36,11 +36,11 @@ We will analyse our data from the perspective of constrained Euclidean space, as
 
 ## R concepts
 We will mainly use the following R concepts, functions and packages:
-•	Data Import and Cleaning: readr, dplyr
-•	Spatial Data Handling: sf
-•	Data Visualization: ggplot2, mapview
-•	Integration with OSM Data: osmdata, Osmar
-•	Speed and Route Analysis: Custom functions for detecting deviations, clustering algorithms, and network analysis methods
+1. Data Import and Cleaning: readr, dplyr
+2. Spatial Data Handling: sf
+3. Data Visualization: ggplot2, mapview
+4. Integration with OSM Data: osmdata, Osmar
+5. Speed and Route Analysis: Custom functions for detecting deviations, clustering algorithms, and network analysis methods
 
 ## Risk analysis
 The first challenge is the potential presence of outliers in the travel data - data collected while using other modes of transport (e.g., car, train). As this is not suited for our research questions, we will filter this data out during preprocessing. The second challenge is that the initial dataset might not be large enough for robust analysis. Our solution would be to extract data over a longer period of time from the Strava app.
