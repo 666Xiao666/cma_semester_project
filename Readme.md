@@ -13,37 +13,42 @@ Analysis Geo 880**
 | Semester:      | FS24                                     |
 |:---------------|:---------------------------------------- |
 | **Data:**      | Daily trajectories  |
-| **Title:**     | Detecting speed and route deviations in the biking data |
+| **Title:**     | Detecting Speed and Route Deviations in Biking Data |
 | **Student 1:** | Tanja Falasca                       |
 | **Student 2:** | Tatiana Blumberg                    |
 
 ## Abstract 
-In this work, we are going to examine biking GPS data. The focus of this project is to examine speed and route deviations considering the environment and time in which the tracking was conducted. The analysis will be conducted in the R environment. Depending on the results, we will try to identify possible reasons behind them. 
+In this work, we will examine biking GPS data. The focus of this project is to analyse speed and route deviations considering the environment and time in which the tracking was conducted. The analysis will be conducted in the R environment. Depending on the results, we will try to identify possible reasons behind these deviations. 
 
 ## Research Questions
-1.	Are there any speed deviations, and if so, what are they and why do they occur? (Consider different speeds on various trips or fluctuations during a single trip, and explore the potential reasons)
+1.	Are there any speed deviations, and if so, what are they and why do they occur? (Consider different speeds on various trips or fluctuations during a single trip, and explore the potential reasons.)
    
-2.	Are there any differences in the routes preferred at different times of the day or in different directions (e.g. outbound and return trips)?
+2.	Are there any differences in the routes preferred at different times of the day or in different directions (e.g., outbound and return trips)?
 
 ## Results / products
-We expect speed deviations. Possible reason may be the traffic conditions (e.g. traffic lights or increased traffic in rush hours). We also expect differences between the outbound and return trips as well as deviations between routs taken in the different times of the day.
+We expect to find speed deviations, possibly due to traffic conditions (e.g. traffic lights or increased traffic during rush hours). We also expect differences between the outbound and return trips, as well as deviations between routes taken at different times of the day.
 
 ## Data
-We are going to work with trajectory data and then use the biking data from it. The data was collected with the Strava app mainly in Karlsruhe, Germany. The additional data we are going to use is the OpenStreetMap of the Karlsruhe city, which will be taken from an open internet resource. During the work on the project, we might consider using some other open data.
+We are going to work with trajectory data and use the biking data from it. The data was collected with the Strava app mainly in Karlsruhe, Germany. The additional data we are going to use is the OpenStreetMap of the Karlsruhe city, which will be taken from an open internet resource. During the work on the project, we might consider using some other open data.
 
 ## Analytical concepts
-<!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
+We will analyse our data from the perspective of constrained Euclidean space, as bicyclists are constrained by the streets in their movement. We will use the Lagrangian movement perspective, as the GPS fixes are saved instantly and are not connected to any static checkpoints.
 
 ## R concepts
-<!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
+We will mainly use the following R concepts, functions and packages:
+•	Data Import and Cleaning: readr, dplyr
+•	Spatial Data Handling: sf
+•	Data Visualization: ggplot2, mapview
+•	Integration with OSM Data: osmdata, Osmar
+•	Speed and Route Analysis: Custom functions for detecting deviations, clustering algorithms, and network analysis methods
 
 ## Risk analysis
-The first challenge that we will face is the potential outliers in the travel data – the data collected while using the other transport means (car, train). As this is not suited for our research questions the solution would be to filter this data out on the stage of preprocessing. The second problem is that the initial dataset size might not be large enough for the solid analysis. The plan B in this case would be extracting data for the longer period from the Strava app.
+The first challenge is the potential presence of outliers in the travel data - data collected while using other modes of transport (e.g., car, train). As this is not suited for our research questions, we will filter this data out during preprocessing. The second challenge is that the initial dataset might not be large enough for robust analysis. Our solution would be to extract data over a longer period of time from the Strava app.
 
 ## Questions? 
 1. How to match raw GPS data with the bikeway?
-2. Potential indicator for speed deviation: semantic (station as origin/destination), time (operation time)?
-3. How to match the open street data with the biking data (might be needed for identifying the traffic lights and the road junctions)?
+2. What potential indicator for speed deviation should we consider? (e.g., semantic indicators such as station origin/destination, operational times)
+3. How to match the open street data with the biking data? (this might be needed for identifying the traffic lights and the road junctions)
 
 ## References (APA 7)
 <!-- potential ideas in: indoor/outdoor detection -->
