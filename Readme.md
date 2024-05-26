@@ -13,25 +13,24 @@ Analysis Geo 880**
 | Semester:      | FS24                                     |
 |:---------------|:---------------------------------------- |
 | **Data:**      | Daily trajectories  |
-| **Title:**     | Transit detection of daily mobility patterns |
+| **Title:**     | Detecting speed and route deviations in the biking data |
 | **Student 1:** | Tanja Falasca                       |
 | **Student 2:** | Tatiana Blumberg                    |
 
 ## Abstract 
-<!-- (50-60 words) -->
+In this work, we are going to examine biking GPS data. The focus of this project is to examine speed and route deviations considering the environment and time in which the tracking was conducted. The analysis will be conducted in the R environment. Depending on the results, we will try to identify possible reasons behind them. 
 
 ## Research Questions
-<!-- (50-60 words) -->
-1. Which detection methods can identify transit modes accurately?
-2. 
+1.	Are there any speed deviations, and if so, what are they and why do they occur? (Consider different speeds on various trips or fluctuations during a single trip, and explore the potential reasons)
+   
+2.	Are there any differences in the routes preferred at different times of the day or in different directions (e.g. outbound and return trips)?
+
 ## Results / products
-<!-- What do you expect, anticipate? -->
+We expect speed deviations. Possible reason may be the traffic conditions (e.g. traffic lights or increased traffic in rush hours). We also expect differences between the outbound and return trips as well as deviations between routs taken in the different times of the day.
 
 ## Data
-<!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
-1. Movement data (trajectories) from the data pool
-2. POI from Open Street Map (OSM)
-3. 
+We are going to work with trajectory data and then use the biking data from it. The data was collected with the Strava app mainly in Karlsruhe, Germany. The additional data we are going to use is the OpenStreetMap of the Karlsruhe city, which will be taken from an open internet resource. During the work on the project, we might consider using some other open data.
+
 ## Analytical concepts
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
